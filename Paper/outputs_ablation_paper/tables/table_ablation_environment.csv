@@ -1,0 +1,2 @@
+python,platform,processor,torch,cuda_available,device,numpy,pandas,sklearn,seeds,datasets,quick_mode,n_main,d_main,default_n_rules,epochs,patience,batch_size,learning_rate,weight_decay,default_mask_l1,rule_beta,gradient_n_samples,rule_counts,mask_l1_values
+3.12.12,Linux-6.6.122+-x86_64-with-glibc2.35,x86_64,2.10.0+cu128,True,cuda,2.0.2,2.3.3,1.6.1,"[1, 12, 123, 1234, 12345]","['Hierarchical', 'Friedman1', 'XorChain', 'ThresholdCls', 'MultiThresh']",False,2000,15,32,150,20,256,0.003,0.0001,0.0001,6.0,300,"[16, 32, 64, 128]","[0.0, 1e-05, 0.0001, 0.001]"

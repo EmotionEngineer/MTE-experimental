@@ -1,0 +1,15 @@
+model,hyperparameter,value,selection
+SMTE,template,Student-t signed log-margin,fixed
+GMTE,template,Gaussian signed log-margin,fixed
+SMTE/GMTE,n_rules,32,fixed from simple synthetic notebook
+SMTE/GMTE,epochs,150,fixed with early stopping
+SMTE/GMTE,patience,20,fixed
+SMTE/GMTE,batch_size,256,fixed
+SMTE/GMTE,learning_rate,0.003,fixed
+SMTE/GMTE,weight_decay,0.0001,fixed
+SMTE/GMTE,l1_mask,0.0001,fixed; no sparse-mask tuning
+SMTE/GMTE,rule_beta,6.0,fixed
+EBM,interactions,10,fixed
+XGBoost,n_estimators / max_depth,300 / 5,fixed
+CatBoost,iterations / depth,400 / 5,fixed
+RuleFit,n_estimators / tree_size / max_rules,200 / 4 / 2000,fixed

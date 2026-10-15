@@ -1,0 +1,54 @@
+# paper.toml
+[[authors]]
+name = "Islam Tlupov"
+photo = "tlupov.jpg"
+corresponding = true
+email = "tlupovislam@gmail.com"
+orcid = "0009-0009-1300-520X"
+institution = "Academy of Engineering, RUDN University, Moscow (Russian Federation)"
+credit = [
+  "conceptualization",
+  "methodology",
+  "software",
+  "validation",
+  "formal-analysis",
+  "investigation",
+  "data-curation",
+  "writing-original-draft",
+  "writing-review-editing",
+  "visualization"
+]
+bio = "Islam Tlupov is a postgraduate researcher at the Academy of Engineering of RUDN University in Moscow, Russian Federation. His research interests include machine learning, interpretable artificial intelligence, tabular data modeling, and differentiable rule-based systems. His current work focuses on the development and evaluation of interpretable machine learning methods for tabular data."
+
+[paper]
+title = "Margin-Template Rule Ensembles: Differentiable Interpretable Rule Models in Signed Log-Margin Space"
+
+abstract = "Interpretable tabular models are valuable when predictive performance alone is insufficient: users may also require feature recovery, interaction detection, sparse explanations, transparent decision structure, and model-native explanations. This paper introduces Margin-Template Rule Ensembles (MTEs), a family of compact differentiable rule ensembles that operate on signed log-margins of soft rule literals. Each rule learns axis-aligned thresholds, inequality directions, evidence signs, sparse literal masks, template locations, template scales, and a linear prediction head. Two instantiations are studied: the Student-t Margin Template Ensemble (SMTE), which uses heavy-tailed templates for robustness to margin outliers, and the Gaussian Margin Template Ensemble (GMTE), which uses Gaussian templates in the same signed log-margin space. The proposed models are evaluated against EBM, XGBoost, CatBoost, and RuleFit on controlled synthetic datasets and a 28-dataset tabular benchmark. On synthetic tasks, SMTE and GMTE accurately recover ground-truth feature structure and interactions. On the extended benchmark, SMTE remains competitive with strong tabular baselines while preserving end-to-end differentiability and direct rule-level interpretability."
+
+keywords = [
+  "interpretable machine learning",
+  "tabular data",
+  "rule ensembles",
+  "differentiable rules",
+  "robust learning",
+  "Student-t templates",
+  "feature recovery"
+]
+
+doi = "10.9781/ijimai.XXXX.XX.XXX"
+
+
+received-date = 2026-01-01
+accepted-date = 2026-01-01
+published-date = 2026-01-01
+
+volume = 0
+number = 0
+starting-page = 1
+
+short-author-list = "I. Tlupov"
+
+preprint = true
+
+special-issue = false
+special-issue-title = ""

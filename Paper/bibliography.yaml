@@ -1,0 +1,493 @@
+tibshirani1996:
+  type: article
+  title: Regression shrinkage and selection via the lasso
+  author:
+    - Tibshirani, Robert
+  date: 1996
+  parent:
+    type: periodical
+    title: Journal of the Royal Statistical Society Series B
+
+zou2005:
+  type: article
+  title: Regularization and variable selection via the elastic net
+  author:
+    - Zou, Hui
+    - Hastie, Trevor
+  date: 2005
+  parent:
+    type: periodical
+    title: Journal of the Royal Statistical Society Series B
+
+ribeiro2016:
+  type: proceedings
+  title: '"Why should I trust you?": Explaining the predictions of any classifier'
+  author:
+    - Ribeiro, Marco Tulio
+    - Singh, Sameer
+    - Guestrin, Carlos
+  date: 2016
+  parent:
+    type: proceedings
+    title: Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining
+
+rudin2019:
+  type: article
+  title: Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead
+  author:
+    - Rudin, Cynthia
+  date: 2019
+  parent:
+    type: periodical
+    title: Nature Machine Intelligence
+
+chen2016xgboost:
+  type: proceedings
+  title: 'XGBoost: A scalable tree boosting system'
+  author:
+    - Chen, Tianqi
+    - Guestrin, Carlos
+  date: 2016
+  parent:
+    type: proceedings
+    title: Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining
+
+prokhorenkova2018catboost:
+  type: proceedings
+  title: 'CatBoost: Unbiased boosting with categorical features'
+  author:
+    - Prokhorenkova, Liudmila
+    - Gusev, Gleb
+    - Vorobev, Aleksandr
+    - Dorogush, Anna Veronika
+    - Gulin, Andrey
+  date: 2018
+  parent:
+    type: proceedings
+    title: Advances in Neural Information Processing Systems
+
+lou2013:
+  type: proceedings
+  title: Accurate intelligible models with pairwise interactions
+  author:
+    - Lou, Yin
+    - Caruana, Rich
+    - Gehrke, Johannes
+    - Hooker, Giles
+  date: 2013
+  parent:
+    type: proceedings
+    title: Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining
+
+nori2019:
+  type: report
+  title: 'InterpretML: A unified framework for machine learning interpretability'
+  author:
+    - Nori, Harsha
+    - Jenkins, Samuel
+    - Koch, Paul
+    - Caruana, Rich
+  date: 2019
+  institution: arXiv preprint arXiv:1909.09223
+
+friedman2008rulefit:
+  type: article
+  title: Predictive learning via rule ensembles
+  author:
+    - Friedman, Jerome H.
+    - Popescu, Bogdan E.
+  date: 2008
+  parent:
+    type: periodical
+    title: Annals of Applied Statistics
+
+irsoy2012:
+  type: proceedings
+  title: Soft decision trees
+  author:
+    - Irsoy, Ozan
+    - Yildiz, Olcay Taner
+    - Alpaydin, Ethem
+  date: 2012
+  parent:
+    type: proceedings
+    title: International Conference on Pattern Recognition
+
+kontschieder2015:
+  type: proceedings
+  title: Deep neural decision forests
+  author:
+    - Kontschieder, Peter
+    - Fiterau, Madalina
+    - Criminisi, Antonio
+    - Bulo, Samuel Rota
+  date: 2015
+  parent:
+    type: proceedings
+    title: IEEE International Conference on Computer Vision
+
+lundberg2017shap:
+  type: proceedings
+  title: A unified approach to interpreting model predictions
+  author:
+    - Lundberg, Scott M.
+    - Lee, Su-In
+  date: 2017
+  parent:
+    type: proceedings
+    title: Advances in Neural Information Processing Systems
+
+breiman1984:
+  type: book
+  title: Classification and regression trees
+  author:
+    - Breiman, Leo
+    - Friedman, Jerome
+    - Olshen, Richard A.
+    - Stone, Charles J.
+  date: 1984
+  publisher: Wadsworth
+
+letham2015interpretable:
+  type: article
+  title: 'Interpretable classifiers using rules and Bayesian analysis: Building a better stroke prediction model'
+  author:
+    - Letham, Benjamin
+    - Rudin, Cynthia
+    - McCormick, Tyler H.
+    - Madigan, David
+  date: 2015
+  parent:
+    type: periodical
+    title: Annals of Applied Statistics
+
+hastie1990generalized:
+  type: book
+  title: Generalized additive models
+  author:
+    - Hastie, Trevor J.
+    - Tibshirani, Robert J.
+  date: 1990
+  publisher: Chapman and Hall
+
+angelino2018learning:
+  type: article
+  title: Learning certifiably optimal rule lists for categorical data
+  author:
+    - Angelino, Elaine
+    - Larus-Stone, Nicholas
+    - Alabi, Daniel
+    - Seltzer, Margo
+    - Rudin, Cynthia
+  date: 2018
+  parent:
+    type: periodical
+    title: Journal of Machine Learning Research
+
+wang2016bayesian:
+  type: proceedings
+  title: Bayesian rule sets for interpretable classification
+  author:
+    - Wang, Tong
+    - Rudin, Cynthia
+    - Doshi-Velez, Finale
+    - Liu, Yimin
+    - Klampfl, Erica
+    - MacNeille, Perry
+  date: 2016
+  parent:
+    type: proceedings
+    title: Proceedings of the IEEE International Conference on Data Mining
+
+dash2018boolean:
+  type: proceedings
+  title: Boolean decision rules via column generation
+  author:
+    - Dash, Sanjeeb
+    - Günlük, Oktay
+    - Wei, Dennis
+  date: 2018
+  parent:
+    type: proceedings
+    title: Advances in Neural Information Processing Systems
+
+ke2017lightgbm:
+  type: proceedings
+  title: 'LightGBM: A highly efficient gradient boosting decision tree'
+  author:
+    - Ke, Guolin
+    - Meng, Qi
+    - Finley, Thomas
+    - Wang, Taifeng
+    - Chen, Wei
+    - Ma, Weidong
+    - Ye, Qiwei
+    - Liu, Tie-Yan
+  date: 2017
+  parent:
+    type: proceedings
+    title: Advances in Neural Information Processing Systems
+
+popov2020neural:
+  type: proceedings
+  title: Neural oblivious decision ensembles for deep learning on tabular data
+  author:
+    - Popov, Sergei
+    - Morozov, Stanislav
+    - Babenko, Artem
+  date: 2020
+  parent:
+    type: proceedings
+    title: International Conference on Learning Representations
+
+katz2021net:
+  type: proceedings
+  title: 'Net-DNF: Effective deep modeling of tabular data'
+  author:
+    - Katzir, Liran
+    - Elidan, Gal
+    - El-Yaniv, Ran
+  date: 2021
+  parent:
+    type: proceedings
+    title: International Conference on Learning Representations
+
+arik2021tabnet:
+  type: proceedings
+  title: 'TabNet: Attentive interpretable tabular learning'
+  author:
+    - Arik, Sercan O.
+    - Pfister, Tomas
+  date: 2021
+  parent:
+    type: proceedings
+    title: Proceedings of the AAAI Conference on Artificial Intelligence
+
+lange1989robust:
+  type: article
+  title: Robust statistical modeling using the t distribution
+  author:
+    - Lange, Kenneth L.
+    - Little, Roderick J. A.
+    - Taylor, Jeremy M. G.
+  date: 1989
+  parent:
+    type: periodical
+    title: Journal of the American Statistical Association
+
+huber1981robust:
+  type: book
+  title: Robust statistics
+  author:
+    - Huber, Peter J.
+  date: 1981
+  publisher: John Wiley & Sons
+
+borisov2022deep:
+  type: article
+  title: 'Deep neural networks and tabular data: A survey'
+  author:
+    - Borisov, Vadim
+    - Leemann, Tobias
+    - Seßler, Kathrin
+    - Haug, Johannes
+    - Pawelczyk, Martin
+    - Kasneci, Gjergji
+  date: 2022
+  parent:
+    type: periodical
+    title: IEEE Transactions on Neural Networks and Learning Systems
+
+grinsztajn2022why:
+  type: proceedings
+  title: 'Why do tree-based models still outperform deep learning on typical tabular data?'
+  author:
+    - Grinsztajn, Léo
+    - Oyallon, Edouard
+    - Varoquaux, Gaël
+  date: 2022
+  parent:
+    type: proceedings
+    title: Advances in Neural Information Processing Systems
+
+evans2018learning:
+  type: article
+  title: Learning explanatory rules from noisy data
+  author:
+    - Evans, Richard
+    - Grefenstette, Edward
+  date: 2018
+  parent:
+    type: periodical
+    title: Journal of Artificial Intelligence Research
+
+payani2019inductive:
+  type: report
+  title: Inductive logic programming via differentiable deep neural logic networks
+  author:
+    - Payani, Ali
+    - Fekri, Faramarz
+  date: 2019
+  institution: arXiv preprint arXiv:1906.03523
+
+loshchilov2017sgdr:
+  type: proceedings
+  title: "SGDR: Stochastic Gradient Descent with Warm Restarts"
+  author:
+    - Loshchilov, Ilya
+    - Hutter, Frank
+  date: 2017
+  parent:
+    type: proceedings
+    title: International Conference on Learning Representations
+
+loshchilov2019decoupled:
+  type: proceedings
+  title: "Decoupled Weight Decay Regularization"
+  author:
+    - Loshchilov, Ilya
+    - Hutter, Frank
+  date: 2019
+  parent:
+    type: proceedings
+    title: International Conference on Learning Representations
+
+demsar2006statistical:
+  type: article
+  title: "Statistical comparisons of classifiers over multiple data sets"
+  author:
+    - Demšar, Janez
+  date: 2006
+  parent:
+    type: periodical
+    title: Journal of Machine Learning Research
+
+hoeffding1963:
+  type: article
+  title: Probability Inequalities for Sums of Bounded Random Variables
+  author:
+    - Hoeffding, Wassily
+  date: 1963
+  page-range: 13-30
+  parent:
+    type: periodical
+    title: Journal of the American Statistical Association
+    volume: 58
+    issue: 301
+
+mcdiarmid1989:
+  type: chapter
+  title: On the Method of Bounded Differences
+  author:
+    - McDiarmid, Colin
+  date: 1989
+  page-range: 148-188
+  parent:
+    type: book
+    title: "Surveys in Combinatorics, 1989"
+    editor:
+      - Siemons, J.
+    volume: 141
+  publisher: Cambridge University Press
+
+boucheron2013concentration:
+  type: book
+  title: 'Concentration Inequalities: A Nonasymptotic Theory of Independence'
+  author:
+    - Boucheron, Stéphane
+    - Lugosi, Gábor
+    - Massart, Pascal
+  date: 2013
+  publisher: Oxford University Press
+
+bartlett2002rademacher:
+  type: article
+  title: 'Rademacher and Gaussian Complexities: Risk Bounds and Structural Results'
+  author:
+    - Bartlett, Peter L.
+    - Mendelson, Shahar
+  date: 2002
+  page-range: 463-482
+  parent:
+    type: periodical
+    title: Journal of Machine Learning Research
+    volume: 3
+
+anthony1999neural:
+  type: book
+  title: 'Neural Network Learning: Theoretical Foundations'
+  author:
+    - Anthony, Martin
+    - Bartlett, Peter L.
+  date: 1999
+  publisher: Cambridge University Press
+
+mohri2018foundations:
+  type: book
+  title: Foundations of Machine Learning
+  author:
+    - Mohri, Mehryar
+    - Rostamizadeh, Afshin
+    - Talwalkar, Ameet
+  date: 2018
+  publisher: MIT Press
+  edition: 2
+
+devore1993constructive:
+  type: book
+  title: Constructive Approximation
+  author:
+    - DeVore, Ronald A.
+    - Lorentz, George G.
+  date: 1993
+  publisher: Springer
+
+yang1999information:
+  type: article
+  title: Information-Theoretic Determination of Minimax Rates of Convergence
+  author:
+    - Yang, Yuhong
+    - Barron, Andrew
+  date: 1999
+  page-range: 1564-1599
+  parent:
+    type: periodical
+    title: Annals of Statistics
+    volume: 27
+    issue: 5
+
+hampel1974influence:
+  type: article
+  title: The Influence Curve and Its Role in Robust Estimation
+  author:
+    - Hampel, Frank R.
+  date: 1974
+  page-range: 383-393
+  parent:
+    type: periodical
+    title: Journal of the American Statistical Association
+    volume: 69
+    issue: 346
+
+dudley1967sizes:
+  type: article
+  title: The Sizes of Compact Subsets of Hilbert Space and Continuity of Gaussian Processes
+  author:
+    - Dudley, Richard M.
+  date: 1967
+  page-range: 290-330
+  parent:
+    type: periodical
+    title: Journal of Functional Analysis
+    volume: 1
+    issue: 3
+
+goodfellow2016deep:
+  type: book
+  title: Deep Learning
+  author:
+    - Goodfellow, Ian
+    - Bengio, Yoshua
+    - Courville, Aaron
+  date: 2016
+  publisher: MIT Press

@@ -1,0 +1,16 @@
+name,family,n_rules,mask_l1,use_signed_evidence,use_log_margin,learn_thresholds,learn_scales,beta,epochs,patience,batch_size,lr,weight_decay,group,display_label
+SMTE-reference,SMTE,32,0.0001,True,True,True,True,6.0,150,20,256,0.003,0.0001,architecture,Reference SMTE
+NoSignedEvidence,SMTE,32,0.0001,False,True,True,True,6.0,150,20,256,0.003,0.0001,architecture,No signed evidence
+NoLogMargin,SMTE,32,0.0001,True,False,True,True,6.0,150,20,256,0.003,0.0001,architecture,No log-margin
+NoMaskPenalty,SMTE,32,0.0,True,True,True,True,6.0,150,20,256,0.003,0.0001,architecture,No mask penalty
+FixedThresholds,SMTE,32,0.0001,True,True,False,True,6.0,150,20,256,0.003,0.0001,architecture,Fixed thresholds
+FixedScales,SMTE,32,0.0001,True,True,True,False,6.0,150,20,256,0.003,0.0001,architecture,Fixed scales
+GMTE-template,GMTE,32,0.0001,True,True,True,True,6.0,150,20,256,0.003,0.0001,architecture,Gaussian template
+SMTE-R16,SMTE,16,0.0001,True,True,True,True,6.0,150,20,256,0.003,0.0001,rule_count,R=16
+SMTE-R32,SMTE,32,0.0001,True,True,True,True,6.0,150,20,256,0.003,0.0001,rule_count,R=32
+SMTE-R64,SMTE,64,0.0001,True,True,True,True,6.0,150,20,256,0.003,0.0001,rule_count,R=64
+SMTE-R128,SMTE,128,0.0001,True,True,True,True,6.0,150,20,256,0.003,0.0001,rule_count,R=128
+SMTE-lambda-0e00,SMTE,32,0.0,True,True,True,True,6.0,150,20,256,0.003,0.0001,mask_penalty,$\lambda_m=0$
+SMTE-lambda-1em05,SMTE,32,1e-05,True,True,True,True,6.0,150,20,256,0.003,0.0001,mask_penalty,$\lambda_m=1e-05$
+SMTE-lambda-1em04,SMTE,32,0.0001,True,True,True,True,6.0,150,20,256,0.003,0.0001,mask_penalty,$\lambda_m=0.0001$
+SMTE-lambda-1em03,SMTE,32,0.001,True,True,True,True,6.0,150,20,256,0.003,0.0001,mask_penalty,$\lambda_m=0.001$

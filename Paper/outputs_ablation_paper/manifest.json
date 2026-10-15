@@ -1,0 +1,75 @@
+{
+  "output_dir": "outputs_ablation_paper",
+  "quick_mode": false,
+  "seeds": [
+    1,
+    12,
+    123,
+    1234,
+    12345
+  ],
+  "datasets": [
+    "Hierarchical",
+    "Friedman1",
+    "XorChain",
+    "ThresholdCls",
+    "MultiThresh"
+  ],
+  "device": "cuda",
+  "n_main": 2000,
+  "d_main": 15,
+  "default_n_rules": 32,
+  "epochs": 150,
+  "patience": 20,
+  "batch_size": 256,
+  "learning_rate": 0.003,
+  "weight_decay": 0.0001,
+  "default_mask_l1": 0.0001,
+  "rule_beta": 6.0,
+  "rule_counts": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "mask_l1_values": [
+    0.0,
+    1e-05,
+    0.0001,
+    0.001
+  ],
+  "n_successful_runs": 375,
+  "n_failed_runs": 0,
+  "tables": [
+    "paper_compact_architecture_ablations.csv",
+    "paper_compact_mask_penalty_sensitivity.csv",
+    "paper_compact_rule_count_sensitivity.csv",
+    "paper_table_architecture_ablation_deltas.csv",
+    "paper_table_architecture_ablations.csv",
+    "paper_table_mask_penalty_sensitivity.csv",
+    "paper_table_rule_count_sensitivity.csv",
+    "table_ablation_configurations.csv",
+    "table_ablation_dataset_specification.csv",
+    "table_ablation_environment.csv",
+    "table_ablation_extracted_rules.csv",
+    "table_ablation_failed_runs.csv",
+    "table_ablation_ranked_results.csv",
+    "table_ablation_raw_results.csv",
+    "table_ablation_summary_by_config.csv",
+    "table_ablation_summary_by_dataset.csv",
+    "table_ablation_training_curves.csv"
+  ],
+  "figures": [
+    "figure_1_architecture_ablation_heatmap.png",
+    "figure_2_architecture_delta_lollipop.png",
+    "figure_3_ablation_frontier.png",
+    "figure_4_rule_count_sensitivity.png",
+    "figure_5_mask_penalty_sensitivity.png",
+    "figure_6_sensitivity_tile_map.png",
+    "figure_7_representative_training_diagnostics.png"
+  ],
+  "extra_files": [
+    "typst_ablation_snippets.typ",
+    "suggested_manuscript_ablation_text.txt"
+  ]
+}
